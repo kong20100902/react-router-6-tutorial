@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import ProtectedRoute from "./pages/ProtectedRoute";
 import SharedProductLayout from './pages/SharedProductLayout'
+
 function App() {
   const [user, setUser] = useState(null);
   return (
